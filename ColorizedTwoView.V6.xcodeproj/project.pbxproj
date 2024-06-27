@@ -13,6 +13,7 @@
 		6C18AE6B2C2D8DEE00A1BE7D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6C18AE6A2C2D8DEE00A1BE7D /* Base */; };
 		6C18AE6D2C2D8DEF00A1BE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C18AE6C2C2D8DEF00A1BE7D /* Assets.xcassets */; };
 		6C18AE702C2D8DEF00A1BE7D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6C18AE6F2C2D8DEF00A1BE7D /* Base */; };
+		6C18AE782C2D922C00A1BE7D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C18AE772C2D922C00A1BE7D /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6C18AE6C2C2D8DEF00A1BE7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C18AE6F2C2D8DEF00A1BE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C18AE712C2D8DEF00A1BE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C18AE772C2D922C00A1BE7D /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				6C18AE652C2D8DEE00A1BE7D /* SceneDelegate.swift */,
 				6C18AE672C2D8DEE00A1BE7D /* ViewController.swift */,
 				6C18AE692C2D8DEE00A1BE7D /* Main.storyboard */,
+				6C18AE772C2D922C00A1BE7D /* SettingsViewController.swift */,
 				6C18AE6C2C2D8DEF00A1BE7D /* Assets.xcassets */,
 				6C18AE6E2C2D8DEF00A1BE7D /* LaunchScreen.storyboard */,
 				6C18AE712C2D8DEF00A1BE7D /* Info.plist */,
@@ -141,6 +144,7 @@
 				6C18AE682C2D8DEE00A1BE7D /* ViewController.swift in Sources */,
 				6C18AE642C2D8DEE00A1BE7D /* AppDelegate.swift in Sources */,
 				6C18AE662C2D8DEE00A1BE7D /* SceneDelegate.swift in Sources */,
+				6C18AE782C2D922C00A1BE7D /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,9 +311,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Swiftbook.ColorizedTwoView-V6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -335,9 +343,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Swiftbook.ColorizedTwoView-V6";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

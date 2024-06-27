@@ -11,9 +11,25 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+     
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let settingsVC = segue.destination as? SettingsViewController else { return }
+        settingsVC.delegate = self
+        settingsVC.viewColor = view.backgroundColor
+    }
+    
+    @IBAction func unwind(for unwindSegue: UIStoryboardSegue) {
+        
+    }
+}
 
+extension ViewController: SettingsViewControllerDelegate {
+    func setColor(color: UIColor) {
+        view.backgroundColor = color
+    }
+    
+    
 }
 
