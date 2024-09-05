@@ -34,7 +34,7 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        rgbView.layer.cornerRadius =15
+        rgbView.layer.cornerRadius = 15
         redSlider.thumbTintColor = .red
         greenSlider.thumbTintColor = .green
         blueSlider.thumbTintColor = .blue
