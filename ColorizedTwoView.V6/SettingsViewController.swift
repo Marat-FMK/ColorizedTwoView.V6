@@ -45,7 +45,7 @@ class SettingsViewController: UIViewController {
         setLabels(redLabel,greenLabel,blueLabel)
 //        redTF.delegate = self
 //        greenTF.delegate = self       // либо через код (зажать control и тащить к значку viecontroller около выхода)
-//        blueTF.delegate = self
+//        blueTF.delegate = self // work with delegate
     }
     
     private func string(slider: UISlider) -> String {
